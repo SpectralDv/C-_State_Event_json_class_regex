@@ -1,0 +1,25 @@
+{
+    "table_state":[{"1":"init"},{"2":"option"},{"3":"update"},{"4":"destroy"}],
+    "state":[
+        "init event12 option",
+        "init event14 destroy",
+
+        "option event21 init",
+        "option event23 update",
+        "option event23 destroy",
+
+        "update event32 option",
+        "update event34 destroy"
+    ],
+    "event":[
+        "event12",
+        "event14",
+
+        "event21",
+        "event23",
+        "event24",
+
+        "event32",
+        "event34"
+    ]
+}
